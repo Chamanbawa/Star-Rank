@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/Star-Rank/static/js/main.a3279a46.js",
+    "main.css": "/Star-Rank/static/css/main.017d1efa.css",
+    "main.js": "/Star-Rank/static/js/main.33eb0057.js",
     "index.html": "/Star-Rank/index.html",
-    "main.a3279a46.js.map": "/Star-Rank/static/js/main.a3279a46.js.map"
+    "main.017d1efa.css.map": "/Star-Rank/static/css/main.017d1efa.css.map",
+    "main.33eb0057.js.map": "/Star-Rank/static/js/main.33eb0057.js.map"
   },
   "entrypoints": [
-    "static/js/main.a3279a46.js"
+    "static/css/main.017d1efa.css",
+    "static/js/main.33eb0057.js"
   ]
 }
