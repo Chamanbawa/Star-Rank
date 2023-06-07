@@ -1,0 +1,119 @@
+@charset "UTF-8";
+#root {
+  height: 100vh;
+}
+.container {
+  width: min(100% - 30px, 1200px);
+  margin-inline: auto;
+}
+.container p {
+  color: #fff;
+}
+h2 {
+  color: aliceblue;
+}
+h2 span {
+  color: rgb(22, 138, 86);
+}
+.input {
+  background-color: rgb(79, 75, 75);
+  border-radius: 10px;
+  color: aliceblue;
+  text-align: center;
+}
+
+button,
+input[type="button"] {
+  background-color: aquamarine;
+  margin-right: 20px;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.result {
+  text-align: center;
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+h2 {
+  color: #fff;
+}
+
+input[type="text"] {
+  border-radius: 5px;
+  border: #8c959f;
+  text-align: left;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  background-color: rgb(87, 84, 84);
+  color: #fff;
+}
+.btn-success {
+  margin-left: 5px;
+  height: 38px;
+}
+.center {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+}
+.icon-div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.star-icon {
+  color: #5c5959;
+  font-size: 60px;
+}
+.review {
+  text-align: center;
+}
+
+.dialogue-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dialog {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 20px;
+  position: absolute;
+}
+.dialogue-container {
+  backdrop-filter: blur(10px);
+}
+
+.dialog p {
+  color: #000;
+}
+.dialog button {
+  position: absolute;
+  right: 45px;
+  bottom: 20px;
+}
+.open {
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  width: 90px;
+  font-weight: bold;
+  padding: 1px;
+}
